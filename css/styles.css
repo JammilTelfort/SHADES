@@ -1,0 +1,103 @@
+/*Styles for SHADES Project*/
+
+
+
+@font-face{
+	font-family: Carrington
+	src: url(...Fonts/Carrington/Carrington.ttf);
+}
+
+
+body{
+	background-color: none;
+
+}
+
+
+
+
+h1{
+
+	background-color: #b300b3;
+	text-align: center;
+	font-family: Carrington, Helvetica, Arial, cursive;
+	color: white;
+	font-size: 100px;
+
+}
+
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 200; 
+}
+
+
+
+.transparent_b{
+
+		background: rgba(255,0,255,0.3);
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top: 5%;
+		padding: 2%;
+		border: solid 6px black;
+		font-family: Carrington;
+		color: white;
+		font-size: 25px;
+
+
+)
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+background-color: violet;
+
+}
+li{
+display: inline-block;
+text-align: center;
+width: 19%;
+background-color: khaki;
+padding-top: 1%;
+margin: 0;
+}
+
+.dropdown-content{
+display: none;
+position: absolute;
+backgorund-color: purple;
+width: 90%;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+margin-top: 0;
+margin-left: 0;
+align-content: center;
+text-decoraton: none;
+}
+
+.dropdown {
+position: relative;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.dropdown-content a {
+background-color: purple;
+color: khaki;
+padding: 10px 20px;
+text-decoraton: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+background-color: purple;
+letter-spacing: 0.1em;
+font-size: 1.1em;
+}
+
+
+
+
