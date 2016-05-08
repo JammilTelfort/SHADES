@@ -9,7 +9,7 @@
 
 
 body{
-	background-color: none;
+	background-image: url("../Pictures/clubfair15.jpg");
 
 }
 
@@ -27,13 +27,6 @@ h1{
 }
 
 
-ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 200; 
-}
-
-
 
 .transparent_b{
 
@@ -48,7 +41,7 @@ ul{
 		font-size: 25px;
 
 
-)
+}
 
 ul {
 list-style-type: none;
@@ -60,44 +53,60 @@ background-color: violet;
 li{
 display: inline-block;
 text-align: center;
-width: 19%;
-background-color: khaki;
-padding-top: 1%;
+width: 18%;
+background-color: violet;
+padding-top: 0s;
 margin: 0;
+color: white;
 }
 
 .dropdown-content{
 display: none;
 position: absolute;
-backgorund-color: purple;
-width: 90%;
+background-color: violet;
+width: 15%;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
 margin-top: 0;
 margin-left: 0;
-align-content: center;
+text-align: center;
 text-decoraton: none;
 }
 
-.dropdown {
-position: relative;
+.dropdown{
+	display: inline-block;
+	font-size: 75%;
+	width: 10%
+	position: absolute;
+
 }
-.dropdown:hover .dropdown-content {
+
+
+.dropdown:hover 
+
+.dropdown-content {
 display: block;
 }
+
+
 .dropdown-content a {
-background-color: purple;
-color: khaki;
+background-color: violet;
+color: white;
 padding: 10px 20px;
 text-decoraton: none;
 display: block;
 }
 
 .dropdown-content a:hover {
-background-color: purple;
+background-color: violet;
 letter-spacing: 0.1em;
 font-size: 1.1em;
 }
 
+.text {
+	font-size: 1.5em;
+	letter-spacing: .15em;
+	font-weight: bold;
+}
 
 
 
