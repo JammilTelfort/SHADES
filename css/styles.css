@@ -4,12 +4,25 @@
 
 @font-face{
 	font-family: Carrington
-	src: url(...Fonts/Carrington/Carrington.ttf);
+	src: url(../Fonts/Carrington/Carrington.ttf);
+}
+
+@font-face{
+	font-family: Pacifico
+	src: url(../Fonts/pacifico/Pacifico.ttf);
+}
+
+@font-face{
+	font-family: Kaushan
+	src: url(../Fonts/kaushan-script/KaushanScript-Regular.otf) format('opentype');
 }
 
 
 body{
 	background-image: url("../Pictures/clubfair15.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
 
 }
 
@@ -107,6 +120,30 @@ font-size: 1.1em;
 	letter-spacing: .15em;
 	font-weight: bold;
 }
+
+
+.info{
+	font-family: Pacifico;
+	color: white;
+	font-size: 1.5em;
+}
+
+.mission{
+	font-family: Kaushan;
+	color: white;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
